@@ -4,7 +4,6 @@ build:
 	go build ./pkg/battleShip
 	go build ./pkg/keyboardManager
 	go build ./pkg/runtime
-	go build ./cmd/spaceInvaders.go
 
 test:
 	go test ./pkg/runtime
